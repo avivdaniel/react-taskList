@@ -1,0 +1,26 @@
+.Switch, .Switch--disabled {
+  width: 90px;
+  height: 30px;
+  border-radius: 7px;
+  background: #3ea83f;
+  border: 2px solid #dddddd;
+}
+
+.Switch .handle, .Switch--disabled .handle {
+  float: left;
+  width: 24px;
+  height: 24px;
+  background: #ffffff;
+  border-radius: 7px;
+  margin: 3px;
+}
+
+.Switch--disabled {
+  background: #eeeeee;
+  opacity: 0.9;
+}
+
+.Switch--disabled .handle {
+  float: right;
+}
+/*# sourceMappingURL=Switch.css.map */
